@@ -15,10 +15,22 @@
  */
 
 html {
-  background-color: rgb(20, 22, 21);
+  background-color: rgba(40, 10, 5, 1);
 }
 
-.background {
+.background #buffer {
+  position: absolute;
+  top: 0;
+  left: 0;
+
+  height: 0;
+  width: 0;
+
+  z-index: -8;
+  background-color: rgba(0, 0, 0, .5);
+}
+
+.background #fore {
   position: absolute;
   top: 0;
   left: 0;
@@ -26,6 +38,8 @@ html {
   height: 100%;
   width: 100%;
 
-  z-index: 1;
-  background-color: rgba(170, 175, 199, 0.15);
+  z-index: -9;
+  opacity: 0.05;
+  background-image: image_url("_background_wetboards.jpg");
+  //background-color: rgba(170, 175, 199, 0.15);
 }

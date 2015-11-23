@@ -1,0 +1,72 @@
+/* line 5, C:/Users/Ryan/Projects/Web/Rails/glibberish/app/assets/stylesheets/main.scss */
+.construction {
+  position: fixed;
+  top: 30%;
+  left: 23.5%;
+  margin: 0;
+  padding: 2% 5% 2% 5%;
+  height: 20%;
+  wdith: 50%;
+  background-color: rgba(150, 150, 150, 0.7);
+  border-radius: 35px;
+}
+/* line 18, C:/Users/Ryan/Projects/Web/Rails/glibberish/app/assets/stylesheets/main.scss */
+.construction h1, .construction h2 {
+  color: white;
+  text-align: center;
+  margin: 0;
+}
+/* line 25, C:/Users/Ryan/Projects/Web/Rails/glibberish/app/assets/stylesheets/main.scss */
+.construction h1 {
+  text-shadow: -1.5px 0 #000, 0 1.5px #000, 1.5px 0 #000, 0 -1.5px #000;
+  font-size: 42px;
+  color: #c81414;
+}
+/* line 32, C:/Users/Ryan/Projects/Web/Rails/glibberish/app/assets/stylesheets/main.scss */
+.construction h2 {
+  margin-top: 7%;
+  font-size: 34px;
+  color: black;
+}
+/*
+ * This is a manifest file that'll be compiled into application.css, which will include all the files
+ * listed below.
+ *
+ * Any CSS and SCSS file within this directory, lib/assets/stylesheets, vendor/assets/stylesheets,
+ * or any plugin's vendor/assets/stylesheets directory can be referenced here using a relative path.
+ *
+ * You're free to add application-wide styles to this file and they'll appear at the bottom of the
+ * compiled file so the styles you add here take precedence over styles defined in any styles
+ * defined in the other CSS/SCSS files in this directory. It is generally better to create a new
+ * file per style scope.
+ *
+
+
+ */
+/* line 18, C:/Users/Ryan/Projects/Web/Rails/glibberish/app/assets/stylesheets/application.scss */
+html {
+  background-color: #280a05;
+}
+
+/* line 22, C:/Users/Ryan/Projects/Web/Rails/glibberish/app/assets/stylesheets/application.scss */
+.background #buffer {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 0;
+  width: 0;
+  z-index: -8;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+/* line 34, C:/Users/Ryan/Projects/Web/Rails/glibberish/app/assets/stylesheets/application.scss */
+.background #fore {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  z-index: -9;
+  opacity: 0.05;
+  background-image: url(/assets/_background_wetboards-dcc401ae77e28392c23cc0186d7bb9ef7b232329e6d5f12c6455fb0de8c0009e.jpg);
+}

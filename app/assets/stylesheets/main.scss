@@ -5,14 +5,14 @@
 .construction {
   position: fixed;
   top: 30%;
-  left: 25%;
+  left: 23.5%;
 
   margin: 0;
-  padding: 7.5% 5% 0 5%;
+  padding: 2% 5% 2% 5%;
   height: 20%;
   wdith: 50%;
 
-  background-color: grey;
+  background-color: rgba(150, 150, 150, 0.7);
   border-radius: 35px;
 
   h1, h2 {
@@ -23,13 +23,15 @@
   }
 
   h1 {
-    font-size: 38px;
+    text-shadow: -1.5px 0 #000, 0 1.5px #000, 1.5px 0 #000, 0 -1.5px #000;
+    font-size: 42px;
 
-    color: rgb(175, 20, 20);
+    color: rgb(200, 20, 20);
   }
 
   h2 {
-    font-size: 32px;
+    margin-top: 7%;
+    font-size: 34px;
 
     color: black;
   }
