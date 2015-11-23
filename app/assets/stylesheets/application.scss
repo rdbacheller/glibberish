@@ -15,7 +15,7 @@
  */
 
 html {
-  background-color: rgba(40, 10, 5, 1);
+  background-color: rgba(15, 35, 10, .7);
 }
 
 .background #buffer {
@@ -27,7 +27,7 @@ html {
   width: 0;
 
   z-index: -8;
-  background-color: rgba(0, 0, 0, .5);
+  background-color: rgba(0, 0, 0, .8);
 }
 
 .background #fore {
@@ -39,7 +39,7 @@ html {
   width: 100%;
 
   z-index: -9;
-  opacity: 0.05;
+  opacity: 0.4;
   background-image: image_url("_background_wetboards.jpg");
   //background-color: rgba(170, 175, 199, 0.15);
 }
