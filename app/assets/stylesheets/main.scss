@@ -1,3 +1,32 @@
 // Place all the styles related to the Main controller here.
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
+
+.construction {
+  position: fixed;
+  top: 40%;
+  left: 30%;
+
+  margin: 0;
+  padding: 5%;
+  height: 10%;
+  wdith: 30%;
+
+  background-color: grey;
+  border-radius: 35px;
+
+  h1, h2 {
+    color: white;
+    text-align: center;
+
+    margin: 0;
+  }
+
+  h1 {
+    color: rgb(175, 20, 20);
+  }
+
+  h2 {
+    color: black;
+  }
+}

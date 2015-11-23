@@ -13,3 +13,19 @@
  *= require_tree .
  *= require_self
  */
+
+html {
+  background-color: rgb(20, 22, 21);
+}
+
+.background {
+  position: absolute;
+  top: 0;
+  left: 0;
+
+  height: 100%;
+  width: 100%;
+
+  z-index: 1;
+  background-color: rgba(170, 175, 199, 0.15);
+}
