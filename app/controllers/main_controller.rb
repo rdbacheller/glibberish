@@ -10,4 +10,7 @@ class MainController < ApplicationController
 
   def construction
   end
+
+  def feed
+  end
 end

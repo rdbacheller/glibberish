@@ -7,10 +7,28 @@
   <%= csrf_meta_tags %>
 </head>
 <body>
-<div class="background" id="buffer"><div class="background" id="fore"></div>
+<div class="container">
+  <!-- This is the original code, commented out for posterity sake -->
+  <div class="header">
+    <div class="menu"><h1 id="menu_title">Glibberish</h1>
+      <ul class="menuBox">
+        <li class="active"><a>Feed</a></li>
+        <li class="ia"><a href="/search">Search</a></li>
+        <li class="ia"><a href="about"> About</a></li>
+        <li class="ia"><a href="user"> Users</a></li>
+      </ul>
+    </div>
+  </div>
+  <div class="main">
+    <%= yield %>
+  </div>
 </div>
 
-<%= yield %>
+
+  <div class="footer"></div>
+
+<div class="background" id="buffer"><div class="background" id="fore"></div>
+</div>
 
 </body>
 </html>
